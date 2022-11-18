@@ -3,9 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* header */
 #header{
     width: 100%;
-    height: 20rem;
     background-color:#129799;
 }
 .headerNav{
@@ -20,15 +20,18 @@
 } 
 
 .headerImg{
-    width: 20rem;
+    width: 30rem;
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .headerDivOne{
     width: 100%;
-    height: 10rem;
+    
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    margin-top: 2rem;
+   
 }
 .headerDivTwo{
     width: 100%;
@@ -36,13 +39,65 @@
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-
- 
 }
-li {
-    list-style: nome;
+/* nao sei outra forma de sobrepor uma imagme e um texto */
+.divLogoNav{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    top: 0.9rem;
+    left: 6rem;
+    /* margin-left:15rem ; */
+}
+.logoNav{
+z-index: 1;
+/* width: 70%;
+height: 70%; */
+display: flex;
+justify-content:center;
+align-items: center;
+
+/* justify-content:center; */
+/* align-items: center; */
+
+
+}
+
+
+.linkHover {
+    /* list-style: nome; */
     display: flex;
     justify-content: space-around;
-    align-items: center;
-   margin: 5px;
+    align-items: flex-end;
+   padding: 2rem;
 }
+.linkHover :hover{
+transition: ease-in-out 0.2s;
+transform: scale(1.1);
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size:1.5rem ;
+}
+a :hover{
+    transition: ease-in-out 0.2s;
+    transform: scale(1.7);
+    }
+h1{
+    color: white;
+font-size: 3rem;   
+}
+.listHover{
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+   padding-left: 5rem;
+
+}
+.listHover :hover{
+    transition: ease-in-out 0.2s;
+transform: scale(1.1);
+}
+/* header */
