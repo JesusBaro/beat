@@ -1,52 +1,52 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 /* header */
 #header{
-    width: 100%;
-    background-color:#129799;
+width: 100%;
+background-color:#129799;
 }
 .headerNav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+display: flex;
+justify-content: space-around;
+align-items: center;
 }
 .headerUl{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+display: flex;
+justify-content: space-around;
+align-items: center;
 } 
 
 .headerImg{
-    width: 30rem;
-    display: flex;
-  justify-content: space-around;
-  align-items: center;
+width: 30rem;
+display: flex;
+justify-content: space-around;
+align-items: center;
 }
 .headerDivOne{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
    
 }
 .headerDivTwo{
-    width: 100%;
-    height: 3rem; 
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
+width: 100%;
+height: 3rem; 
+display: flex;
+justify-content: space-around;
+align-items: flex-end;
 }
 /* nao sei outra forma de sobrepor uma imagme e um texto */
 .divLogoNav{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    position: relative;
-    top: 0.9rem;
-    left: 6rem;
+display: flex;
+justify-content:center;
+align-items: center;
+position: relative;
+top: 0.9rem;
+left: 6rem;
     /* margin-left:15rem ; */
 }
 .logoNav{
@@ -61,33 +61,30 @@ align-items: center;
 /* align-items: center; */
 
 .linkHover {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-   margin: 2rem;
+display: flex;
+justify-content: space-around;
+align-items: flex-end;
+margin: 2rem;
 }
 .linkHover :hover{
 transition: ease-in-out 0.2s;
 transform: scale(1.1);
 }
 a{
-    text-decoration: none;
-    color: white;
-    font-size:1.5rem ;
+text-decoration: none;
+color: white;
+font-size:1.5rem ;
 }
-a :hover{
-    transition: ease-in-out 0.2s;
-    transform: scale(1.7);
-}
+
 h1{
-    color: white;
+color: white;
 font-size: 4rem;   
 }
 .listHover{
-    display: inline-flex;
-    justify-content: space-evenly;
-    align-items: flex-end;
-   padding-left: 5rem;
+display: inline-flex;
+justify-content: space-evenly;
+align-items: flex-end;
+padding-left: 5rem;
 
 }
 .listHover :hover{
@@ -98,97 +95,97 @@ transform: scale(1.1);
 
 /* main  */
 body{
-    width: 100%;
+width: 100%;
 }
 main{
-    width: 100%;
-    height: 65rem;
-    background-color: #FFA185;
+width: 100%;
+height: 70rem;
+background-color: #FFA185;
 }
 #mainAquarela{
-    width: 80%;
-    height: 13rem;
-    margin-left: 2rem;
+width: 80%;
+height: 13rem;
+margin-left: 2rem;
 }
 .DivAquarela{
-    width: 80%;
-    height: 13rem;
-    padding-top: 2rem;
+width: 80%;
+height: 13rem;
+padding-top: 2rem;
 }
 .tittle{
-  font-size: 2rem;
-  margin: 0rem 0 2rem 0;  
-  color: white;
+font-size: 2rem;
+margin: 0rem 0 2rem 0;  
+color: white;
 }
 .paragraph{
-    font-size: 2rem;
+font-size: 2rem;
 }
 img{
-  width: 30%;
+width: 30%;
 }
 
 .mainImg{
   /* border: solid rgb(0, 0, 0); */
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
+width: 100%;
+display: flex;
+justify-content: space-evenly;
 }
 
 .divMainImgOne{
     /* border: solid #129799 ; */
-    margin: 1.2rem 0 1.2rem 0;
-    width: 42vw;
-    height: 45vh;
-    display: flex;
-    justify-content: space-around;
-    background-image: url("assets/img-1.jpeg");
-    background-size: cover;
+margin: 1.2rem 0 1.2rem 0;
+width: 42vw;
+height: 45vh;
+display: flex;
+justify-content: space-around;
+background-image: url("assets/img-1.jpeg");
+background-size: cover;
 }
 .divMainImgTwo{
     /* border: solid #129799 ; */
-    margin: 1.2rem 0 1.2rem 0;
-    width: 42vw;
-    height: 45vh;
-    display: flex;
-    justify-content: space-evenly;
-    background-image: url("assets/img2.jpeg");
-    background-size: cover;
+margin: 1.2rem 0 1.2rem 0;
+width: 42vw;
+height: 45vh;
+display: flex;
+justify-content: space-evenly;
+background-image: url("assets/img2.jpeg");
+background-size: cover;
 }
 .divMainImgThree{
     /* border: solid #129799 ; */
-    margin: 1.2rem 0 1.2rem 0;
-    width: 42vw;
-    height: 45vh;
-    display: flex;
-    justify-content: space-evenly;
-    background-image: url("assets/img3.jpeg");
-    background-size: cover;
+margin: 1.2rem 0 1.2rem 0;
+width: 42vw;
+height: 45vh;
+display: flex;
+justify-content: space-evenly;
+background-image: url("assets/img3.jpeg");
+background-size: cover;
 }
 .divMainImgOneFour{
     /* border: solid #129799 ; */
-    margin: 1.2rem 0 1.2rem 0;
-    width: 42vw;
-    height: 45vh;
-    display: flex;
-    justify-content: space-evenly;
-    background-image: url("assets/img4.jpeg");
-    background-size: cover;
+margin: 1.2rem 0 1.2rem 0;
+width: 42vw;
+height: 45vh;
+display: flex;
+justify-content: space-evenly;
+background-image: url("assets/img4.jpeg");
+background-size: cover;
 }
 .buttom{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
 }
 .divButtom{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 3rem;
+width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-top: 3rem;
 }
 .buttom{
-    color: black;
-    font-weight: bolder;
+color: black;
+font-weight: bolder;
 }
 footer{
 background-color: #129799;
@@ -198,17 +195,66 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 }
+/* #footerSection{
+display: flex;
+justify-content: space-between;
+align-items: center;
+} */
 .footerLogo{
 border: solid salmon;
-width: 20vw;
-height: 10vh;
+width: 30vw;
+height: 15vh;
+margin-left: 2rem;
 display: flex;
 justify-content: space-evenly ;
+align-items: center;
+}
+footer img{
+    width: 5vw;
+    /* align-items: center; */
+    }
+footer a :hover{
+transition: ease-in-out 0.2s;
+transform: scale(1.2);
 }
 .footerTxt{
     border: solid salmon;
-    width: 35vw;
-    height: 10vh;
+    width: 40vw;
+    height: 15vh;
+    margin-right: 5rem;
     display: flex;
-justify-content:space-around ;
+    justify-content: space-between ;
+/* padding-right: 4rem; */
 }
+
+.footerNav{
+    display: flex;
+    /* justify-content: space-between ; */
+}
+.footerUl{
+    display: flex;
+    /* justify-content: space-between ; */
+/* margin-left: 2rem ; */
+} 
+/* ----Nao consegui alinhar a lista */
+.linkfooter{
+    align-items: center;
+    color: #F7F7F7;
+    margin-left: 6em;
+    list-style: none;
+    font-size: 1.2em;
+    display: flex;
+}
+
+/* .imgFace{
+    width: 5vw;
+}
+.imgInsta{
+    width: 5vw;
+}
+.imgLinkdein{
+    width: 5vw;
+}
+.imgPin{
+    width: 5vw;
+} */
