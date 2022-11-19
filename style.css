@@ -190,7 +190,7 @@ font-weight: bolder;
 footer{
 background-color: #129799;
 width: 100%;
-height: 10rem;
+height: 8rem;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -201,7 +201,7 @@ justify-content: space-between;
 align-items: center;
 } */
 .footerLogo{
-border: solid salmon;
+/* border: solid salmon; */
 width: 30vw;
 height: 15vh;
 margin-left: 2rem;
@@ -210,15 +210,15 @@ justify-content: space-evenly ;
 align-items: center;
 }
 footer img{
-    width: 5vw;
+    width: 3vw;
     /* align-items: center; */
     }
-footer a :hover{
+/* footer a :hover{
 transition: ease-in-out 0.2s;
 transform: scale(1.2);
-}
+} */
 .footerTxt{
-    border: solid salmon;
+    /* border: solid salmon; */
     width: 40vw;
     height: 15vh;
     margin-right: 5rem;
@@ -240,9 +240,9 @@ transform: scale(1.2);
 .linkfooter{
     align-items: center;
     color: #F7F7F7;
-    margin-left: 6em;
+    margin-left: 3em;
     list-style: none;
-    font-size: 1.2em;
+    font-size: 1.5em;
     display: flex;
 }
 
